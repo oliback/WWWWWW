@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This file was created by the map editor which was created by Anders Schanche
+-->
+<map>
+ <zones>
+  <zone x="0" y="0">
+   <spawn x="304" y="192"/>
+   <rect w="640" h="64" r="12" g="255" b="11" a="255" x="0" y="336"/>
+   <rect w="144" h="112" r="12" g="255" b="11" a="255" x="240" y="224"/>
+   <spikes dir="2" w="207" h="15" x="32" y="320" on_impact="1"/>
+  </zone>
+  <zone x="1" y="0"/>
+  <zone x="2" y="0"/>
+  <zone x="2" y="-1">
+   <goal x="512" y="176"/>
+   <rect w="384" h="80" r="12" g="255" b="11" a="255" x="240" y="304"/>
+   <rect w="144" h="112" r="12" g="255" b="11" a="255" x="432" y="192"/>
+   <spikes dir="2" w="191" h="15" x="240" y="288" on_impact="1"/>
+  </zone>
+ </zones>
+</map>

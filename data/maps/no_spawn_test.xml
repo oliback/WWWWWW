@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This file was created by the map editor which was created by Anders Schanche
+-->
+<map>
+ <zones>
+  <zone x="0" y="0">
+   <rect w="160" h="96" r="103" g="198" b="105" a="255" x="240" y="240"/>
+   <rect w="0" h="0" r="103" g="198" b="105" a="255" x="512" y="448"/>
+   <rect w="64" h="96" r="218" g="50" b="50" a="255" x="176" y="240"/>
+   <rect w="64" h="96" r="218" g="50" b="50" a="255" x="400" y="240"/>
+   <rect w="112" h="96" r="231" g="234" b="1" a="255" x="464" y="240"/>
+   <rect w="112" h="96" r="231" g="234" b="1" a="255" x="64" y="240"/>
+   <spikes dir="2" w="511" h="15" x="64" y="224" on_impact="1"/>
+  </zone>
+ </zones>
+</map>

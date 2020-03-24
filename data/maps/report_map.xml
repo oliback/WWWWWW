@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This file was created by the map editor which was created by Anders Schanche
+-->
+<map>
+ <zones>
+  <zone x="0" y="0">
+   <spawn x="48" y="384"/>
+   <rect w="640" h="80" r="74" g="187" b="19" a="255" x="0" y="400"/>
+   <rect w="16" h="400" r="74" g="187" b="19" a="255" x="0" y="0"/>
+   <rect w="624" h="16" r="74" g="187" b="19" a="255" x="16" y="0"/>
+   <rect w="16" h="272" r="240" g="7" b="7" a="255" x="96" y="128"/>
+   <rect w="16" h="272" r="240" g="7" b="7" a="255" x="224" y="16"/>
+   <rect w="16" h="272" r="240" g="7" b="7" a="255" x="336" y="128"/>
+   <rect w="16" h="272" r="240" g="7" b="7" a="255" x="448" y="16"/>
+   <rect w="16" h="272" r="240" g="7" b="7" a="255" x="560" y="128"/>
+   <spikes dir="1" w="15" h="271" x="80" y="128" on_impact="1"/>
+   <spikes dir="2" w="15" h="15" x="96" y="112" on_impact="1"/>
+   <spikes dir="0" w="15" h="271" x="112" y="128" on_impact="1"/>
+   <spikes dir="1" w="15" h="271" x="208" y="16" on_impact="1"/>
+   <spikes dir="0" w="15" h="271" x="240" y="16" on_impact="1"/>
+   <spikes dir="3" w="15" h="15" x="224" y="288" on_impact="1"/>
+   <spikes dir="1" w="15" h="271" x="320" y="128" on_impact="1"/>
+   <spikes dir="2" w="15" h="15" x="336" y="112" on_impact="1"/>
+   <spikes dir="0" w="15" h="271" x="352" y="128" on_impact="1"/>
+   <spikes dir="1" w="15" h="271" x="432" y="16" on_impact="1"/>
+   <spikes dir="3" w="15" h="15" x="448" y="288" on_impact="1"/>
+   <spikes dir="0" w="15" h="271" x="464" y="16" on_impact="1"/>
+   <spikes dir="1" w="15" h="271" x="544" y="128" on_impact="1"/>
+   <spikes dir="2" w="15" h="15" x="560" y="112" on_impact="1"/>
+   <spikes dir="0" w="15" h="271" x="576" y="128" on_impact="1"/>
+  </zone>
+  <zone x="1" y="0">
+   <rect w="128" h="80" r="50" g="50" b="130" a="255" x="0" y="400"/>
+   <rect w="64" h="80" r="50" g="50" b="130" a="255" x="224" y="400"/>
+   <rect w="64" h="80" r="50" g="50" b="130" a="255" x="384" y="400"/>
+   <rect w="96" h="80" r="50" g="50" b="130" a="255" x="544" y="400"/>
+   <rect w="448" h="16" r="226" g="218" b="43" a="255" x="96" y="208"/>
+   <rect w="640" h="80" r="49" g="35" b="127" a="255" x="0" y="0"/>
+   <spikes dir="3" w="447" h="15" x="96" y="224" on_impact="1"/>
+   <spikes dir="0" w="15" h="15" x="544" y="208" on_impact="1"/>
+   <spikes dir="2" w="447" h="15" x="96" y="192" on_impact="1"/>
+   <spikes dir="1" w="15" h="15" x="80" y="208" on_impact="1"/>
+   <spikes dir="1" w="15" h="79" x="208" y="400" on_impact="1"/>
+   <spikes dir="0" w="15" h="79" x="128" y="400" on_impact="1"/>
+   <spikes dir="0" w="15" h="79" x="288" y="400" on_impact="1"/>
+   <spikes dir="1" w="15" h="79" x="368" y="400" on_impact="1"/>
+   <spikes dir="0" w="15" h="79" x="448" y="400" on_impact="1"/>
+   <spikes dir="1" w="15" h="79" x="528" y="400" on_impact="1"/>
+   <spikes dir="3" w="639" h="15" x="0" y="80" on_impact="1"/>
+  </zone>
+  <zone x="0" y="0">
+   <spawn x="48" y="384"/>
+  </zone>
+  <zone x="1" y="0"/>
+  <zone x="0" y="0">
+   <spawn x="48" y="384"/>
+  </zone>
+  <zone x="1" y="0"/>
+  <zone x="2" y="0">
+   <goal x="608" y="48"/>
+   <rect w="64" h="416" r="204" g="48" b="102" a="255" x="576" y="64"/>
+   <rect w="64" h="352" r="204" g="48" b="102" a="255" x="512" y="128"/>
+   <rect w="64" h="288" r="204" g="48" b="102" a="255" x="448" y="192"/>
+   <rect w="64" h="224" r="204" g="48" b="102" a="255" x="384" y="256"/>
+   <rect w="64" h="160" r="204" g="48" b="102" a="255" x="320" y="320"/>
+   <rect w="64" h="96" r="204" g="48" b="102" a="255" x="256" y="384"/>
+   <rect w="64" h="32" r="204" g="48" b="102" a="255" x="192" y="448"/>
+   <rect w="192" h="32" r="204" g="48" b="102" a="255" x="0" y="448"/>
+   <rect w="384" h="64" r="204" g="48" b="102" a="255" x="0" y="0"/>
+   <rect w="304" h="64" r="204" g="48" b="102" a="255" x="0" y="64"/>
+   <rect w="240" h="64" r="204" g="48" b="102" a="255" x="0" y="128"/>
+   <rect w="176" h="64" r="204" g="48" b="102" a="255" x="0" y="192"/>
+   <rect w="96" h="64" r="204" g="48" b="102" a="255" x="0" y="256"/>
+   <spikes dir="0" w="15" h="63" x="384" y="0" on_impact="1"/>
+   <spikes dir="3" w="79" h="15" x="304" y="64" on_impact="1"/>
+   <spikes dir="0" w="15" h="47" x="304" y="80" on_impact="1"/>
+   <spikes dir="3" w="63" h="15" x="240" y="128" on_impact="1"/>
+   <spikes dir="0" w="15" h="47" x="240" y="144" on_impact="1"/>
+   <spikes dir="3" w="63" h="15" x="176" y="192" on_impact="1"/>
+   <spikes dir="0" w="15" h="47" x="176" y="208" on_impact="1"/>
+   <spikes dir="3" w="79" h="15" x="96" y="256" on_impact="1"/>
+   <spikes dir="0" w="15" h="47" x="96" y="272" on_impact="1"/>
+   <spikes dir="3" w="95" h="15" x="0" y="320" on_impact="1"/>
+   <spikes dir="1" w="15" h="63" x="240" y="384" on_impact="1"/>
+   <spikes dir="2" w="63" h="15" x="256" y="368" on_impact="1"/>
+   <spikes dir="1" w="15" h="47" x="304" y="320" on_impact="1"/>
+   <spikes dir="2" w="63" h="15" x="320" y="304" on_impact="1"/>
+   <spikes dir="1" w="15" h="47" x="368" y="256" on_impact="1"/>
+   <spikes dir="2" w="63" h="15" x="384" y="240" on_impact="1"/>
+   <spikes dir="1" w="15" h="47" x="432" y="192" on_impact="1"/>
+   <spikes dir="2" w="63" h="15" x="448" y="176" on_impact="1"/>
+   <spikes dir="1" w="15" h="47" x="496" y="128" on_impact="1"/>
+   <spikes dir="2" w="63" h="15" x="512" y="112" on_impact="1"/>
+   <spikes dir="1" w="15" h="47" x="560" y="64" on_impact="1"/>
+  </zone>
+ </zones>
+</map>
