@@ -6,10 +6,10 @@ XMLFLAGS=`xml2-config --cflags --libs`
 OLDFLAGS=-lxml2 -lwsock32
 SRC=src/
 
-all: hello
+all: WWWWWW
 
-hello: main.o map_editor.o helpful_functions.o game.o timer.o rect.o block.o spikes.o map_point.o sdl_functions.o player.o zone.o iomap.o map.o mini_map.o button.o wx_app.o widgets.o
-	$(CC) main.o map_editor.o helpful_functions.o game.o timer.o rect.o block.o spikes.o map_point.o sdl_functions.o player.o zone.o iomap.o map.o mini_map.o button.o wx_app.o widgets.o $(SDLFLAGS) $(XMLFLAGS) $(WXFLAGS) -o hello
+WWWWWW: main.o map_editor.o helpful_functions.o game.o timer.o rect.o block.o spikes.o map_point.o sdl_functions.o player.o zone.o iomap.o map.o mini_map.o button.o wx_app.o widgets.o
+	$(CC) main.o map_editor.o helpful_functions.o game.o timer.o rect.o block.o spikes.o map_point.o sdl_functions.o player.o zone.o iomap.o map.o mini_map.o button.o wx_app.o widgets.o $(SDLFLAGS) $(XMLFLAGS) $(WXFLAGS) -o WWWWWW
 
 main.o: $(SRC)main.cpp
 	$(CC) $(SRC)main.cpp $(CFLAGS)
@@ -66,4 +66,4 @@ widgets.o: $(SRC)widgets.cpp $(SRC)widgets.h
 	$(CC) $(SRC)widgets.cpp $(CFLAGS) $(WXFLAGS)
 
 clean: 
-	rm -rf *.o hello
+	rm -rf *.o WWWWWW
