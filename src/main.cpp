@@ -1,9 +1,16 @@
 //The headers
 #include "game.h"
+#include "string.h"
 
-int main (int argc, char* args[])
+int main (int argc, char* argv[])
 {
     Game *game = new Game();
+
+    for (int i = 1; i < argc; ++i) {
+        if (strcmp(argv[i], "dbg") == 0 || strcmp(argv[i], "debug") == 0) {
+            Help_func::set_debug(true);
+        }
+    }
 
     //Initialize
     if (game->init() == false) {
