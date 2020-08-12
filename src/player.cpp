@@ -53,6 +53,7 @@ Player::set_image(const char *filename_left, const char *filename_right,
     rect_sprite.w = SPRITE_WIDTH;
     rect_sprite.h = SPRITE_HEIGHT;
     rect_sprite.x = 0;
+    rect_sprite.y = 0;
     
     return true;
 }
