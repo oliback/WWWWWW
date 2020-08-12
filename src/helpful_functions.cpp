@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <cstdarg>
 
+// Set to true for verbose debugging output.
 bool
 Help_func::dbg = false;
 

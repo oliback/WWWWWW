@@ -215,6 +215,9 @@ Game::collision_detection()
 
         if ((falling_into || sliding_into) && block->is_fatal()) {
             /* fell into spikes */
+            Help_func::dbg_printf("Fell into fatal block/spikes with x = %d, y = %d, w = %d, h = %d\n",
+                block->get_x(), block->get_y(), block->get_width(), block->get_height());
+
             if (dev_mode) {
                 game_state = DEV;
             } else {

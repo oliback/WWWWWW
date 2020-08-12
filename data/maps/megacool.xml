@@ -25,8 +25,6 @@
    <spikes dir="2" w="79" h="15" x="240" y="224" on_impact="1"/>
    <spikes dir="3" w="15" h="15" x="368" y="208" on_impact="1"/>
    <spikes dir="2" w="95" h="15" x="320" y="400" on_impact="1"/>
-   <spikes dir="3" w="15" h="0" x="496" y="304" on_impact="1"/>
-   <spikes dir="3" w="0" h="0" x="496" y="304" on_impact="1"/>
   </zone>
   <zone x="1" y="0">
    <rect w="640" h="20" r="255" g="255" b="255" a="255" x="0" y="0"/>
