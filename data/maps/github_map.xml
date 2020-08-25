@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This file was created by the map editor which was created by Anders Schanche
+-->
+<map>
+ <zones>
+  <zone x="0" y="0">
+   <spawn x="64" y="384"/>
+   <rect w="640" h="80" r="0" g="144" b="53" a="255" x="0" y="400"/>
+   <rect w="16" h="400" r="0" g="144" b="53" a="255" x="0" y="0"/>
+   <rect w="624" h="16" r="0" g="144" b="53" a="255" x="16" y="0"/>
+   <rect w="64" h="256" r="0" g="144" b="53" a="255" x="144" y="144"/>
+   <rect w="64" h="288" r="0" g="144" b="53" a="255" x="304" y="16"/>
+   <rect w="64" h="256" r="0" g="144" b="53" a="255" x="480" y="144"/>
+   <spikes dir="1" w="15" h="255" x="128" y="144" on_impact="1"/>
+   <spikes dir="2" w="63" h="15" x="144" y="128" on_impact="1"/>
+   <spikes dir="0" w="15" h="255" x="208" y="144" on_impact="1"/>
+   <spikes dir="1" w="15" h="287" x="288" y="16" on_impact="1"/>
+   <spikes dir="3" w="63" h="15" x="304" y="304" on_impact="1"/>
+   <spikes dir="0" w="15" h="271" x="368" y="16" on_impact="1"/>
+   <spikes dir="0" w="15" h="15" x="368" y="288" on_impact="1"/>
+   <spikes dir="1" w="15" h="255" x="464" y="144" on_impact="1"/>
+   <spikes dir="2" w="63" h="15" x="480" y="128" on_impact="1"/>
+   <spikes dir="0" w="15" h="255" x="544" y="144" on_impact="1"/>
+  </zone>
+  <zone x="1" y="0">
+   <goal x="592" y="48"/>
+   <rect w="640" h="80" r="0" g="144" b="53" a="255" x="0" y="400"/>
+   <rect w="640" h="16" r="0" g="144" b="53" a="255" x="0" y="0"/>
+   <rect w="16" h="400" r="0" g="144" b="53" a="255" x="624" y="16"/>
+   <rect w="80" h="80" r="186" g="0" b="0" a="255" x="448" y="80"/>
+   <rect w="96" h="96" r="186" g="0" b="0" a="255" x="448" y="80"/>
+   <spikes dir="3" w="95" h="15" x="448" y="176" on_impact="1"/>
+   <spikes dir="0" w="15" h="95" x="544" y="80" on_impact="1"/>
+   <spikes dir="2" w="95" h="15" x="448" y="64" on_impact="1"/>
+   <spikes dir="1" w="15" h="95" x="432" y="80" on_impact="1"/>
+   <spikes dir="2" w="127" h="15" x="400" y="384" on_impact="1"/>
+  </zone>
+ </zones>
+</map>
